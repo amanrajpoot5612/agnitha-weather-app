@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: 'times new roman', serif  !important;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+#left-side {
+  min-height: 300px;
+}
+
+#right-side {
+  min-height: 300px;
+}
+
+#search-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+#search-section h2{
+  font-size: 23px;
+}
+
+#search-section input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ccc  ;
+  outline: none;
+  font-size: 16px;
+}
+
+#city-search-input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding-bottom: 12px;
+  border: none;
+  margin-top: 10px;
+}
+
