@@ -10,8 +10,6 @@ const Navbar = () => {
   <h1 className="hidden lg:block text-2xl font-bold">About</h1>
 
   {/* Example hamburger icon for small screens */}
-  <h1 className="hidden lg:block text-2xl font-bold">Settings</h1>
-  <h1 className="hidden lg:block text-2xl font-bold">About</h1>
 
   <h1 className="hidden sm:block text-2xl font-bold">Settings</h1>
   <h1 className="hidden sm:block text-2xl font-bold">About</h1>
