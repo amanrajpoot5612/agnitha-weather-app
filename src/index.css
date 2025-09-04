@@ -52,3 +52,27 @@ body{
   margin-top: 10px;
 }
 
+
+@media (max-width: 768px) {
+  #left-side, #right-side {
+    min-height: auto;
+  }
+}
+#search-section input::placeholder {
+  color: #ddd;
+}
+
+@media (max-width: 600px) {
+  #search-section {
+    padding: 10px;
+  }
+
+  #search-section h2 {
+    font-size: 20px;
+  }
+
+  #search-section input {
+    font-size: 14px;
+  }
+}
+
